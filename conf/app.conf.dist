@@ -1,0 +1,8 @@
+appname = budget-planner-go
+httpport = 8080
+runmode = dev
+domain = http://localhost:8080/
+from_user = ACME Corporation
+from_email = blah-blah-blah@gmail.com
+gmail_user = blah-blah-blah@gmail.com
+gmail_pass = mypassword
