@@ -48,6 +48,6 @@
     <td>&nbsp;</td><td><input type="submit" value="Update" /></td>
 </tr>
 </table>
-<a href="http://localhost:8080/user/remove">Remove account</a>
+<a href="/user/remove">Remove account</a>
 </form>
 </div>
