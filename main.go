@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
+	_ "github.com/astaxie/beego/session/redis"
 	_ "github.com/mattn/go-sqlite3"
 )
 

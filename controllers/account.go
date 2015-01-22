@@ -4,7 +4,11 @@ import (
 	"github.com/astaxie/beego"
 )
 
-func (this *MainController) AccountGet() {
+type AccountController struct {
+	beego.Controller
+}
+
+func (this *AccountController) AccountGet() {
 	this.Data["Website"] = "beego.me"
 	this.Data["Email"] = "astaxie@gmail.com"
 	this.TplNames = "index.tpl"

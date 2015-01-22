@@ -38,6 +38,17 @@ type Payments struct {
 	Modified   time.Time `orm:"auto_now;type(datetime)"`
 }
 
+type Settings struct {
+	Id       int    `orm:"pk"`
+	Name     string `orm:"unique"`
+	Value    string
+	Created  time.Time `orm:"auto_now_add;type(datetime)"`
+	Modified time.Time `orm:"auto_now;type(datetime)"`
+}
+
 func init() {
 	orm.RegisterModel(new(AuthUser))
+	orm.RegisterModel(new(Account))
+	orm.RegisterModel(new(Payments))
+	orm.RegisterModel(new(Settings))
 }

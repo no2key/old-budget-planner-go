@@ -37,10 +37,10 @@
         <div id="navbar" class="navbar-collapse collapse">
         {{if .InSession}}
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/settings">Settings</a></li>
+            <li><a href="/user/profile">Profile</a></li>
+            <li><a href="/help">Help</a></li>
           </ul>
           <form class="navbar-form navbar-right" role="search">
             <input type="text" class="form-control" placeholder="Search...">
