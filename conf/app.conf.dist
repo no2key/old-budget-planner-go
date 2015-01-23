@@ -6,3 +6,10 @@ from_user = ACME Corporation
 from_email = blah-blah-blah@gmail.com
 gmail_user = blah-blah-blah@gmail.com
 gmail_pass = mypassword
+
+SessionOn = true
+SessionProvider = redis
+SessionGCMaxLifetime = 10000
+SessionName = gosessionid
+SessionSavePath = 127.0.0.1:6379,100
+SessionHashKey = changeme
